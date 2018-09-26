@@ -27,6 +27,8 @@
             grid-template-columns: auto auto auto auto;
         }
     </style>
+<!--    script for injecting profile information into cards-->
+    <script src = "data.js"></script>
 </head>
 
 <body>
@@ -52,56 +54,32 @@
             </ul>
         </div>
     </nav>
+    
     <div class="container">
         <div class="row">
-        <div class="col-sm">
+          
+           
+<!--            <div class="col-sm">
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="friendinvitescard.png" .../100px180/?text=Image cap alt="Card image cap" />
-            <div class="card-body ">
-                <h5 class="card-title ">Friend Invites</h5>
-                <p class="card-text ">Template for a friend invites box on a custom info box.</p>
-            </div>
-            <ul class="list-group list-group-flush ">
-                <li class="list-group-item ">Template useful for friend invites</li>
-                <li class="list-group-item ">Credit: Steam User <a href="https://steamcommunity.com/id/Aevoa/" target="_blank">Aevoa</a></li>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src='"+profile.image+"'>"; .../100px180/?text=Image cap alt="Card image cap" />
+                    <div class="card-body ">
+                        <h5 class="card-title ">TITLE</h5>
+                        <p class="card-text ">DESCRIPTION</p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">STYLE</li>
+                        <li class="list-group-item ">Credit: Steam User <a href="CREDITLINK" target="_blank">CREDIT</a></li>
+                    </ul>
+                    <textarea id="profileOneTxt">COPYPASTE</textarea>
+                    <div class="card-body ">
+                        <button class="card-link copyBtn btn btn-primary" data-clipboard-target="#profileOneTxt">Copy Text</button>
+                        <a href="LINK" target="_blank" class="card-link ">Fullscreen</a>
+                    </div>
+                </div>
+            </div>-->
 
-                <!--    how to shrink this to be minimized but can expand? also need copy/paste link, how to make another card next to it, how to possibly make card larger/wider, image of card larger?-->
-            </ul>
-            <textarea id="profileOneTxt">
-⠀
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀      —⠀ ғ ʀ ɪ ᴇ ɴ ᴅ⠀⠀ɪ ɴ ᴠ ɪ ᴛ ᴇ s ⠀—
-⠀
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀╱╲
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     Please accompany friend invites with a comment.
-⠀⠀⠀⠀⠀⠀⠀⠀ ╳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    ᴠɪsɪᴛ ᴍʏ ғᴀǫ ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ╳
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀       ╲╱
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀      —⠀⠀ᴏ ᴛ ʜ ᴇ ʀ⠀⠀ᴛ ʜ ɪ ɴ ɢ s⠀⠀—
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀       ╱╲
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⠀[url=www.yourlinkhere.com]ʟɪɴᴋ ᴛɪᴛʟᴇ[/url]
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⠀[url=www.yourlinkhere.com]ʟɪɴᴋ ᴛɪᴛʟᴇ[/url]
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⠀[url=www.yourlinkhere.com]ʟɪɴᴋ ᴛɪᴛʟᴇ[/url]
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⠀[url=www.yourlinkhere.com]ʟɪɴᴋ ᴛɪᴛʟᴇ[/url]
-⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀       ╲╱
-⠀
-⠀
-     </textarea>
-            <div class="card-body ">
-                <button class="card-link copyBtn btn btn-primary" data-clipboard-target="#profileOneTxt">Copy Text</button>
-                <a href="friendinvitescard.png" target="_blank" class="card-link ">Fullscreen</a>
-            </div>
-        </div>
-        </div>
-        
-<!--        end div for container-->
+            <!--        end div for container-->
         </div>
     </div>
     <!-- Optional JavaScript -->
@@ -114,7 +92,74 @@
         new ClipboardJS('.copyBtn');
         console.log("hello");
     </script>
+<!--    script for looping javascript information through into cards-->
+    <script>
+    for(var i=0; i<profiles.length; i++){
+        var profile = profiles[i];
+            console.log(profile.title);
+        var htmlString = "<div class='col-sm'>";
 
+        
+                htmlString += "<div class='card' style='width: 18rem;'>";
+                    htmlString += "<img src='" + profile.image + "'>";
+                    htmlString += "<div class='card-body '>";
+                        htmlString += "<h5 class = 'card-title'>" + profile.title + "</h5>";
+                        htmlString += "<p class='card-text '>" + profile.description + "</p>";
+                    htmlString += "</div>";
+                    htmlString += "<ul class='list-group list-group-flush '>";
+                        htmlString += "<li class='list-group-item '>" + profile.style + "</li>";
+                        htmlString += "<li class='list-group-item '>Credit: Steam User <a href='" + profile.creditlink + "' target='_blank'>" + profile.credit + "</a></li>";
+                    htmlString += "</ul>";
+                    htmlString += "<textarea id='profileOneTxt'>" + profile.copypaste + "</textarea>";
+                    htmlString += "<div class='card-body '>";
+                        htmlString += "<button class='card-link copyBtn btn btn-primary' data-clipboard-target='#profileOneTxt'>Copy Text</button>";
+                        htmlString += "<a href='" + profile.image + "' target='_blank' class='card-link '> Fullscreen </a>";
+                    htmlString += "</div>";
+                htmlString += "</div>";
+            htmlString += "</div>";
+            console.log(htmlString);
+        var row = document.getElementsByClassName('row')[0];
+        row.innerHTML += htmlString;
+    }
+    </script>
+
+
+<footer>
+    <div class="container">
+<nav id="navbar-example2" class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#mdo">@mdo</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#one">one</a>
+        <a class="dropdown-item" href="#two">two</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#three">three</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="about">About</h4>
+  <p>This website was created to make creating good-looking steam profiles much easier. Currently, it is very time-consuming and rage-inducing to create your own profile because of the way Steam handles formatting. Personally, I would regularly want to change things with my profile and make it look interesting, but I never found a place where I could easily do it so I ended up having to make them myself which took hours, all just for a profile. It didn't feel like it was worth the effort, and so I wanted to create a place where people can easily just click a button and have everything pre-formatted for them, taking out the headache of doing it. Many people love to tinker with their profiles and make them look unique and stand out, and this website makes it that much easier and accessible.</p>
+  <h4 id="mdo">Personal Information</h4>
+  <p>Hi, I am Tristan, and this is a website I made as a side project! I have created this website as something to help me learn and get better with programming, as something that will also help people out with something many people find to be fun. I've personally always hoped a website would pop up that would make messing around with Steam, the largest games provider for PC, to be much more accessible and allow it to be a more personalized and unique experience. I decided to take this upon myself to create.</p>
+  <h4 id="one">one</h4>
+  <p>...</p>
+  <h4 id="two">two</h4>
+  <p>...</p>
+  <h4 id="three">three</h4>
+  <p>...</p>
+</div>
+    </div>
+</footer>
 </body>
 
 </html>
