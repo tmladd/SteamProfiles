@@ -1,6 +1,6 @@
 var profiles = [
     {
-        image: "friendinvitescard.png",
+        image: "images/friendinvitescard.png",
         title: "Friend Invites",
         description: "Template for a friend invites box on a custom info box.",
         style: "Template for friend invites",
@@ -33,7 +33,7 @@ var profiles = [
         link: "friendinvitescard.png",
     },
     {
-        image: "profileinformation.png",
+        image: "images/profileinformation.png",
         title: "Profile Information",
         description: "Template useful for giving basic personal information.",
         style: "Template for information",
@@ -56,7 +56,7 @@ Online Status⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
         link: "profileinformation.png",
     },
     {
-        image: "gameid.png",
+        image: "images/gameid.png",
         title: "Game IDs",
         description: "Template for some basic information, invite info, and other gamertags.",
         style: "Template for usernames/ids",
