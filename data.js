@@ -58,7 +58,7 @@ Online Status⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
     {
         image: "images/gameid.png",
         title: "Game IDs",
-        description: "Template for some basic information, invite info, and other gamertags.",
+        description: "Template for basic info, invites, and gamertags.",
         style: "Template for usernames/ids",
         creditlink: "https://steamcommunity.com/id/3gfd6j582hl3f96fe776Ihy255/",
         credit: "Domi_Yukio",
